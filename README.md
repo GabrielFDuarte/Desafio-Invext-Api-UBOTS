@@ -107,3 +107,6 @@ Os testes estão incluídos na aplicação para garantir o funcionamento correto
 ```bash
 mvn test
 ```
+
+## Postman
+Foi adicionado o arquivo `Desafio Ubots.postman_collection.json` com a coleção de requisições disponibilizadas pela API.
