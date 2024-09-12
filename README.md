@@ -92,11 +92,18 @@ Projeto desenvolvido com as seguintes tecnologias:
 ## Package
 A API foi desenvolvida para ser executada a partir de um jar. Para que o jar seja gerado, o seguinte comando pode ser executado na pasta do projeto:
 ```bash
-mvn package
+mvn clean package
 ```
 
 ## Execução
 Para executar a API, o jar pode ser executado normalmente ou com o seguinte comando na pasta do projeto:
 ```bash
 mvn spring-boot:run
+```
+Por padrão a aplicação fica disponível em `http://localhost:8081`.
+
+## Testes
+Os testes estão incluídos na aplicação para garantir o funcionamento correto do projeto. Para executar os testes use o seguinte comando:
+```bash
+mvn test
 ```
