@@ -96,7 +96,7 @@ class RequestControllerTest {
     }
 
     @Test
-    void removeRequestFromAttendant_Failure_ReturnsNotFound() {
+    void removeRequestFromAttendantFailureReturnsNotFound() {
         String teamName = "Cartões";
         String attendantName = "André";
         ResponseDTO responseDTO = new ResponseDTO();
