@@ -22,10 +22,6 @@ public class Team {
         return teamService.assignRequest(request, responseDTO);
     }
 
-    public void processQueue() {
-        teamService.processQueue();
-    }
-
     public String getRequestSummary() {
         return "Time " + name + ": " + teamService.getRequestSummary();
     }

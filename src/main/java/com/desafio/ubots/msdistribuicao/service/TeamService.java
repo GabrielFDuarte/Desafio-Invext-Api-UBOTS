@@ -43,13 +43,6 @@ public class TeamService {
         return responseDTO;
     }
 
-    public void processQueue() {
-        while (!pendingRequests.isEmpty()) {
-            Request nextRequest = pendingRequests.poll();
-            assignRequest(nextRequest, new ResponseDTO());
-        }
-    }
-
     public Queue<Request> getPendingRequests() {
         return pendingRequests;
     }
